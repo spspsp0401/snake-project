@@ -2,7 +2,6 @@
 
 int dx[] = {1,0,-1,0};
 int dy[] = {0,-1,0,1};
-// 0 == Down, 1 == Left, 2 == Up, 3 == Right;
 
 Snake::Snake(int x, int y) : x(x), y(y) {
   for(int i = 1; i <= 2; i++) {
